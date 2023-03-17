@@ -1,0 +1,121 @@
+/* Grundläggande styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.user a {
+    margin-left: 10px;
+}
+
+.user a:last-of-type {
+    margin-right: 10px;
+}
+
+/* Utvalda produkter */
+.featured {
+    padding: 20px;
+}
+
+.featured h2 {
+    margin-top: 0;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0 5px 0;
+    font-size: 20px;
+}
+
+.product p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.product a {
+    display: block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Nya produkter */
+.new-arrivals {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.new-arrivals h2 {
+    margin-top: 0;
+}
